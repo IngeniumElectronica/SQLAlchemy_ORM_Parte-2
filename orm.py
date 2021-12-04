@@ -1,3 +1,5 @@
+#Base de Datos con SQLAlchemy ORM y SQlite, Parte 2
+
 from datetime import datetime
 from sqlalchemy import(Table, Column, Integer, Numeric, String, DateTime, ForeignKey, Boolean, create_engine, desc)
 from sqlalchemy.orm import relationship, backref, sessionmaker
